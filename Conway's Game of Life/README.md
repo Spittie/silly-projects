@@ -10,4 +10,4 @@ Require:
 - [blessing](https://pypi.python.org/pypi/blessings/)
 - [numpy](https://pypi.python.org/pypi/numpy)
 
-![Conway's Game of Life]
+![Conway's Game of Life](https://raw.github.com/Spittie/silly-projects/master/Conway%27s%20Game%20of%20Life/GameOfLife.gif.gif)
