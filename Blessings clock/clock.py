@@ -14,6 +14,12 @@ def print_array(array, x, y):
 
 t = Terminal()
 
+zer = [['#####'],
+       ['#   #'],
+       ['#   #'],
+       ['#   #'],
+       ['#####']]
+
 uno = [['  #  '],
        [' ##  '],
        ['# #  '],
@@ -80,7 +86,9 @@ while 1:
         print t.clear()
         y = 0
         x = 0
-        for i in arrow.now().format('HH:mm:ss'):
+        for i in arrow.now().format('H:mm:ss'):
+            if i == str(0):
+                print_array(zer, x, y)
             if i == str(1):
                 print_array(uno, x, y)
             if i == str(2):
